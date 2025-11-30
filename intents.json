@@ -1,0 +1,299 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "hi there",
+        "hello bot",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hey buddy",
+        "what's up",
+        "is anyone there",
+        "can you help me",
+        "yo"
+      ],
+      "responses": [
+        "Hello! Welcome to our restaurant. How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How may I assist you?",
+        "Greetings! How can I help you today?",
+        "Hello! Feel free to ask me anything about our restaurant."
+      ]
+    },
+
+    {
+      "tag": "opening_hours",
+      "patterns": [
+        "what are your opening hours",
+        "when do you open",
+        "when do you close",
+        "are you open today",
+        "is the restaurant open now",
+        "what time do you start",
+        "restaurant timings",
+        "your business hours",
+        "are you open on weekends",
+        "is the restaurant open at night",
+        "how late are you open",
+        "what time do you shut"
+      ],
+      "responses": [
+        "We are open daily from 10 AM to 11 PM.",
+        "Our restaurant operates between 10 AM and 11 PM every day.",
+        "We’re open from 10 in the morning until 11 at night!",
+        "You can visit us any day between 10:00 AM and 11:00 PM."
+      ]
+    },
+
+    {
+      "tag": "location",
+      "patterns": [
+        "where is your restaurant located",
+        "what is your address",
+        "how do I reach you",
+        "location please",
+        "send me the address",
+        "where are you",
+        "how can I get to your restaurant",
+        "your location",
+        "drop me your address",
+        "where is your place"
+      ],
+      "responses": [
+        "We are located at 123 Food Street, Downtown City.",
+        "Our address is 123 Food Street, near Central Mall.",
+        "You can find us at 123 Food Street in downtown.",
+        "We are situated close to Central Mall, right on Food Street."
+      ]
+    },
+
+    {
+      "tag": "menu_inquiry",
+      "patterns": [
+        "can I see the menu",
+        "show me your menu",
+        "what dishes do you have",
+        "what do you serve",
+        "what is on the menu",
+        "do you serve pizza",
+        "any desserts available",
+        "what beverages do you have",
+        "show me the food items",
+        "menu please",
+        "do you have vegan dishes",
+        "what is today's special"
+      ],
+      "responses": [
+        "We serve a wide range of dishes including appetizers, main courses, desserts, and beverages.",
+        "Our menu includes pasta, pizza, burgers, salads, desserts, and more!",
+        "Sure! You can explore our menu at this link: https://restaurant.com/menu",
+        "We offer a variety of veg, non-veg, and vegan dishes. Would you like recommendations?"
+      ]
+    },
+
+    {
+      "tag": "price_inquiry",
+      "patterns": [
+        "how much does a meal cost",
+        "what is the price of a burger",
+        "are your prices high",
+        "is it expensive",
+        "price range please",
+        "what is your pricing",
+        "cost of dishes",
+        "menu prices",
+        "how much do you charge for food",
+        "affordable or expensive",
+        "do you have budget meals"
+      ],
+      "responses": [
+        "Our dishes range from $5 to $20 depending on the item.",
+        "Most of our meals fall between $8 and $18.",
+        "We offer affordable as well as premium dishes. What are you looking for?",
+        "You can check detailed prices on our online menu: https://restaurant.com/menu"
+      ]
+    },
+
+    {
+      "tag": "table_reservation",
+      "patterns": [
+        "I want to book a table",
+        "can I reserve a table",
+        "table reservation please",
+        "book a table for two",
+        "reserve for tonight",
+        "do you take reservations",
+        "I need seating for four",
+        "can I book a seat",
+        "how do I make a reservation",
+        "do you have any tables available",
+        "reservation help",
+        "can I reserve now"
+      ],
+      "responses": [
+        "Sure! You can reserve a table by visiting: https://restaurant.com/reservations",
+        "I'd be happy to help. Please provide the number of guests and preferred time.",
+        "Yes, we accept reservations! You may call +1 234 567 8900 or book online.",
+        "To reserve a table, please tell me the time and number of people."
+      ]
+    },
+
+    {
+      "tag": "wait_time",
+      "patterns": [
+        "how long is the wait",
+        "is there a queue right now",
+        "waiting time please",
+        "do I need to wait",
+        "how busy are you",
+        "is it crowded",
+        "table availability now",
+        "what is the current wait time",
+        "are tables available",
+        "is it rush hour"
+      ],
+      "responses": [
+        "The current wait time is around 10–15 minutes.",
+        "It's moderately busy right now. Expected wait is about 10 minutes.",
+        "Good news! We currently have tables available.",
+        "It’s a busy time, and the wait may be around 20 minutes."
+      ]
+    },
+
+    {
+      "tag": "special_offers",
+      "patterns": [
+        "any offers today",
+        "do you have discounts",
+        "any deals available",
+        "special offers please",
+        "is there a happy hour",
+        "do you have any promotions",
+        "today's discount",
+        "any coupons",
+        "offers on meals",
+        "combo deals available"
+      ],
+      "responses": [
+        "Yes! We have a 10% discount on all dine-in orders today.",
+        "We offer a lunch combo with a drink for just $12!",
+        "Happy hour runs from 4 PM to 6 PM with special beverage pricing.",
+        "You can view all our offers here: https://restaurant.com/offers"
+      ]
+    },
+
+    {
+      "tag": "dietary_options",
+      "patterns": [
+        "do you have vegan food",
+        "is there gluten free food",
+        "do you serve jain food",
+        "any dairy free options",
+        "do you have healthy food",
+        "vegetarian items please",
+        "vegan options",
+        "gluten free menu please",
+        "I have dietary restrictions",
+        "is this nut free",
+        "any sugar free dishes"
+      ],
+      "responses": [
+        "Yes! We offer vegan, gluten-free, and Jain-friendly dishes.",
+        "We have several dairy-free and nut-free options — just ask!",
+        "You can find our dietary-friendly menu sections on our main menu.",
+        "Please let me know your dietary needs, and I’ll suggest suitable dishes."
+      ]
+    },
+
+    {
+      "tag": "chef_recommendations",
+      "patterns": [
+        "what do you recommend",
+        "what are your best dishes",
+        "chef special please",
+        "popular dishes",
+        "your signature dishes",
+        "most ordered items",
+        "top items on your menu",
+        "what should I try",
+        "recommend something delicious",
+        "best selling food"
+      ],
+      "responses": [
+        "Our chef recommends the Truffle Pasta, BBQ Chicken Pizza, and Classic Tiramisu.",
+        "Our signature dishes include the Herb-Grilled Salmon and Creamy Alfredo Pasta.",
+        "Customers love our Loaded Nachos and Chocolate Lava Cake!",
+        "If you want something special, try our Chef’s Special Platter."
+      ]
+    },
+
+    {
+      "tag": "contact_information",
+      "patterns": [
+        "what is your phone number",
+        "how do I contact you",
+        "give me your contact details",
+        "restaurant phone please",
+        "email address",
+        "customer support number",
+        "how can I call you",
+        "contact info",
+        "your helpline number",
+        "give me the restaurant email"
+      ],
+      "responses": [
+        "You can reach us at +1 234 567 8900.",
+        "Our email address is contact@restaurant.com.",
+        "Feel free to call +1 234 567 8900 for reservations or inquiries.",
+        "You can contact us anytime at contact@restaurant.com."
+      ]
+    },
+
+    {
+      "tag": "ambience",
+      "patterns": [
+        "how is the ambience",
+        "is the restaurant family friendly",
+        "do you have outdoor seating",
+        "is there AC seating",
+        "is it a good place for couples",
+        "can I bring kids",
+        "how is the environment",
+        "quiet or loud place",
+        "do you have indoor seating",
+        "is it comfortable there",
+        "what is the vibe of the place"
+      ],
+      "responses": [
+        "Our restaurant has a cozy, family-friendly atmosphere with both indoor and outdoor seating.",
+        "We offer AC seating and a calm dining environment.",
+        "Yes! We have outdoor seating and a warm, welcoming ambience.",
+        "Perfect for families, couples, and groups — the environment is pleasant and comfortable."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you soon",
+        "thanks bye",
+        "ok bye",
+        "catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful meal!",
+        "See you soon — feel free to return anytime!",
+        "Take care! Visit us again.",
+        "Bye! Let me know if you need anything else."
+      ]
+    }
+  ]
+}
