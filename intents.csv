@@ -190,6 +190,26 @@ is the place free right now,wait_time
 is it easy to get a table now,wait_time
 do I need to arrive early,wait_time
 how crowded is it right now,wait_time
+how much time to get a table,wait_time
+if I come now will I have to wait,wait_time
+is there any waiting right now,wait_time
+how long is the line,wait_time
+how long will I wait for a seat,wait_time
+do I need to wait for a table,wait_time
+is there long waiting during dinner,wait_time
+is there long waiting during lunch,wait_time
+how long is the wait for four people,wait_time
+how long is the wait on weekends,wait_time
+if I arrive at eight will I get a table,wait_time
+will I get instant seating,wait_time
+is there a long queue in the evening,wait_time
+how fast do tables get free,wait_time
+what is the expected waiting time,wait_time
+is there advance queue for walk ins,wait_time
+is there waiting for big groups,wait_time
+do I have to stand in line,wait_time
+how many minutes is the wait,wait_time
+is the waiting time high today,wait_time
 
 "any offers today","special_offers"
 "do you have discounts","special_offers"
@@ -322,6 +342,26 @@ is there a party vibe,ambience
 is it suitable for office dinner,ambience
 is there a private dining area,ambience
 is it a casual place or fine dining,ambience
+is the place peaceful,ambience
+is it a noisy place,ambience
+is the atmosphere calm,ambience
+is it a lively place,ambience
+what kind of ambience do you have,ambience
+is it a classy restaurant,ambience
+is the environment chill,ambience
+is it a cozy restaurant,ambience
+do you have romantic lighting,ambience
+is it good for birthday parties,ambience
+is it a formal place or casual,ambience
+how is the crowd usually,ambience
+is it usually quiet in the evening,ambience
+do you play soft music,ambience
+is the seating spacious,ambience
+is it too crowded usually,ambience
+how is the overall vibe,ambience
+is it a relaxing place,ambience
+is it good for long conversations,ambience
+can we sit and talk peacefully,ambience
 
 "bye","goodbye"
 "goodbye","goodbye"
@@ -345,3 +385,23 @@ thank you goodbye,goodbye
 I am leaving now,goodbye
 see you bye,goodbye
 ok thanks bye,goodbye
+bye for now,goodbye
+alright bye,goodbye
+okay I am done thanks,goodbye
+that answers my question bye,goodbye
+ok I am leaving now,goodbye
+thanks that is enough,goodbye
+talk to you later,goodbye
+I will check later bye,goodbye
+I will visit soon bye,goodbye
+got it thank you bye,goodbye
+ok cool bye,goodbye
+thanks I will book later bye,goodbye
+you have been helpful bye,goodbye
+I am signing off now,goodbye
+catch you another time,goodbye
+all good thanks bye,goodbye
+no more questions bye,goodbye
+thats all from my side bye,goodbye
+ok see you around,goodbye
+have a great day bye,goodbye
