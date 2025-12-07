@@ -12,6 +12,21 @@ text,intent
 "is anyone there","greeting"
 "can you help me","greeting"
 "yo","greeting"
+hey there,greeting
+hello there,greeting
+good day,greeting
+hi friend,greeting
+hey how are you,greeting
+nice to meet you,greeting
+yo there,greeting
+hi restaurant bot,greeting
+hi how is it going,greeting
+hey can you assist me,greeting
+hello I need some help,greeting
+hi I have a question,greeting
+hey I need information,greeting
+hello can you talk,greeting
+hi is this the restaurant,greeting
 
 "what are your opening hours","opening_hours"
 "when do you open","opening_hours"
@@ -25,6 +40,21 @@ text,intent
 "is the restaurant open at night","opening_hours"
 "how late are you open","opening_hours"
 "what time do you shut","opening_hours"
+what time are you open today,opening_hours
+until what time are you open,opening_hours
+from what time are you open,opening_hours
+what are your working hours,opening_hours
+tell me your opening time,opening_hours
+tell me your closing time,opening_hours
+are you open right now,opening_hours
+are you open in the morning,opening_hours
+are you open in the afternoon,opening_hours
+are you open at midnight,opening_hours
+what are your sunday hours,opening_hours
+do you open on holidays,opening_hours
+what are your lunch hours,opening_hours
+when do you open for dinner,opening_hours
+do you stay open late,opening_hours
 
 "where is your restaurant located","location"
 "what is your address","location"
@@ -36,6 +66,21 @@ text,intent
 "your location","location"
 "drop me your address","location"
 "where is your place","location"
+share your location,location
+pin location please,location
+send me your google maps link,location
+where is your outlet,location
+where exactly are you located,location
+which area is your restaurant in,location
+are you near the city center,location
+are you close to the mall,location
+how far is the restaurant from here,location
+is there parking at your location,location
+landmark near your restaurant,location
+can you send directions,location
+nearest metro to your restaurant,location
+which street are you on,location
+how do I find your place,location
 
 "can I see the menu","menu_inquiry"
 "show me your menu","menu_inquiry"
@@ -49,6 +94,21 @@ text,intent
 "menu please","menu_inquiry"
 "do you have vegan dishes","menu_inquiry"
 "what is today's special","menu_inquiry"
+show me the full menu,menu_inquiry
+can you share your menu card,menu_inquiry
+what kind of food do you serve,menu_inquiry
+do you have an online menu,menu_inquiry
+can I see the starters menu,menu_inquiry
+what are your main course items,menu_inquiry
+do you have seafood dishes,menu_inquiry
+any special drinks on the menu,menu_inquiry
+can you list your desserts,menu_inquiry
+do you serve breakfast items,menu_inquiry
+do you have kids menu,menu_inquiry
+what snacks do you offer,menu_inquiry
+let me check your menu,menu_inquiry
+do you have a tasting menu,menu_inquiry
+share menu link please,menu_inquiry
 
 "how much does a meal cost","price_inquiry"
 "what is the price of a burger","price_inquiry"
@@ -61,6 +121,21 @@ text,intent
 "how much do you charge for food","price_inquiry"
 "affordable or expensive","price_inquiry"
 "do you have budget meals","price_inquiry"
+what is the average cost for two,price_inquiry
+how much does dinner usually cost,price_inquiry
+is your restaurant budget friendly,price_inquiry
+are there any service charges,price_inquiry
+are taxes included in prices,price_inquiry
+do you have fixed price meals,price_inquiry
+how much is a thali,price_inquiry
+what is the cheapest dish,price_inquiry
+what is the most expensive dish,price_inquiry
+are drinks expensive,price_inquiry
+do you have value meals,price_inquiry
+what is the average price per person,price_inquiry
+is there any cover charge,price_inquiry
+how much does a combo cost,price_inquiry
+do you charge extra for delivery,price_inquiry
 
 "I want to book a table","table_reservation"
 "can I reserve a table","table_reservation"
@@ -74,6 +149,21 @@ text,intent
 "do you have any tables available","table_reservation"
 "reservation help","table_reservation"
 "can I reserve now","table_reservation"
+I want to make a reservation,table_reservation
+can you book a table for me,table_reservation
+I need a table for three,table_reservation
+reserve a table for this evening,table_reservation
+book a table for my family,table_reservation
+can I pre book a table,table_reservation
+do I need to reserve in advance,table_reservation
+can I schedule a table for tomorrow,table_reservation
+I want to change my reservation,table_reservation
+can I cancel my table booking,table_reservation
+do you accept group reservations,table_reservation
+book a corner table please,table_reservation
+can I get a window seat,table_reservation
+is reservation mandatory,table_reservation
+can I walk in without reservation,table_reservation
 
 "how long is the wait","wait_time"
 "is there a queue right now","wait_time"
@@ -85,6 +175,21 @@ text,intent
 "what is the current wait time","wait_time"
 "are tables available","wait_time"
 "is it rush hour","wait_time"
+how long do I need to wait,wait_time
+what is the waiting period now,wait_time
+is there a long wait list,wait_time
+how many people are waiting,wait_time
+if I come now will I get a table,wait_time
+is there a waiting for dinner,wait_time
+is there waiting on weekends,wait_time
+do I need to stand in a queue,wait_time
+approximate wait time please,wait_time
+how soon can I get a table,wait_time
+is there any waiting for lunch,wait_time
+is the place free right now,wait_time
+is it easy to get a table now,wait_time
+do I need to arrive early,wait_time
+how crowded is it right now,wait_time
 
 "any offers today","special_offers"
 "do you have discounts","special_offers"
@@ -96,6 +201,21 @@ text,intent
 "any coupons","special_offers"
 "offers on meals","special_offers"
 "combo deals available","special_offers"
+any special deals today,special_offers
+do you have festival offers,special_offers
+are there any lunch offers,special_offers
+any discount on combos,special_offers
+do you run weekday offers,special_offers
+any student discount,special_offers
+any corporate discount,special_offers
+do you have loyalty offers,special_offers
+do you offer cashback,special_offers
+any discount on online orders,special_offers
+special price for large groups,special_offers
+any deal on drinks,special_offers
+are there offers on desserts,special_offers
+any weekend promotion,special_offers
+tell me about your offers,special_offers
 
 "do you have vegan food","dietary_options"
 "is there gluten free food","dietary_options"
@@ -108,6 +228,21 @@ text,intent
 "I have dietary restrictions","dietary_options"
 "is this nut free","dietary_options"
 "any sugar free dishes","dietary_options"
+do you have low calorie food,dietary_options
+any low carb options,dietary_options
+can you make food without onion and garlic,dietary_options
+do you have halal food,dietary_options
+do you have eggless desserts,dietary_options
+can you customize for allergies,dietary_options
+is your food cooked in peanut oil,dietary_options
+do you have lactose free dishes,dietary_options
+any high protein options,dietary_options
+is your soup gluten free,dietary_options
+is your bread vegan,dietary_options
+can I get food without spice,dietary_options
+do you have oil free dishes,dietary_options
+do you have keto friendly items,dietary_options
+can you prepare jain version,dietary_options
 
 "what do you recommend","chef_recommendations"
 "what are your best dishes","chef_recommendations"
@@ -119,6 +254,21 @@ text,intent
 "what should I try","chef_recommendations"
 "recommend something delicious","chef_recommendations"
 "best selling food","chef_recommendations"
+what is the chefs favourite dish,chef_recommendations
+which dish do people like the most,chef_recommendations
+suggest something popular,chef_recommendations
+what is your must try item,chef_recommendations
+recommend a good starter,chef_recommendations
+recommend a good main course,chef_recommendations
+what is your best dessert,chef_recommendations
+what do regular customers order,chef_recommendations
+suggest a spicy dish,chef_recommendations
+suggest something mild,chef_recommendations
+what is the house special,chef_recommendations
+any recommendation for first timers,chef_recommendations
+what do you suggest for two people,chef_recommendations
+which dish goes best with rice,chef_recommendations
+which drink goes best with food,chef_recommendations
 
 "what is your phone number","contact_information"
 "how do I contact you","contact_information"
@@ -130,6 +280,21 @@ text,intent
 "contact info","contact_information"
 "your helpline number","contact_information"
 "give me the restaurant email","contact_information"
+what is your contact number,contact_information
+share your phone number,contact_information
+how can I reach you by phone,contact_information
+can I get your whatsapp number,contact_information
+what is your customer care number,contact_information
+how can I mail you,contact_information
+tell me your email id,contact_information
+how can I message you online,contact_information
+give me your website link,contact_information
+any other contact details,contact_information
+how do I reach the manager,contact_information
+who can I contact for catering,contact_information
+is there a booking phone number,contact_information
+can you share your contact page,contact_information
+how do I contact you for feedback,contact_information
 
 "how is the ambience","ambience"
 "is the restaurant family friendly","ambience"
@@ -142,6 +307,21 @@ text,intent
 "do you have indoor seating","ambience"
 "is it comfortable there","ambience"
 "what is the vibe of the place","ambience"
+is the place romantic,ambience
+do you play music there,ambience
+is the music loud,ambience
+is the restaurant quiet,ambience
+is it suitable for a date,ambience
+is it good for family dinner,ambience
+do you have a bar area,ambience
+do you have rooftop seating,ambience
+is smoking allowed,ambience
+is the place cozy,ambience
+how is the lighting there,ambience
+is there a party vibe,ambience
+is it suitable for office dinner,ambience
+is there a private dining area,ambience
+is it a casual place or fine dining,ambience
 
 "bye","goodbye"
 "goodbye","goodbye"
@@ -150,3 +330,18 @@ text,intent
 "thanks bye","goodbye"
 "ok bye","goodbye"
 "catch you later","goodbye"
+bye see you soon,goodbye
+see you next time,goodbye
+thanks that is all,goodbye
+I am done thanks,goodbye
+ok talk later,goodbye
+good night,goodbye
+have a nice day,goodbye
+catch you soon,goodbye
+that is it for now,goodbye
+I will contact you later,goodbye
+thanks for the help,goodbye
+thank you goodbye,goodbye
+I am leaving now,goodbye
+see you bye,goodbye
+ok thanks bye,goodbye
